@@ -1,0 +1,22 @@
+##Link to Data Source
+
+Map_catalogue : https://catalogue.data.wa.gov.au/dataset/1-250-000-geological-series-map-yarraloola-sf50-06
+
+##NOPIMS(National Offshore Petroleum Information Management System)
+WellSearch_Attributes_SurfaceLocation : https://nopims.dmp.wa.gov.au/Nopims/Search/Wells#
+Well_Reports : https://nopims.dmp.wa.gov.au/Nopims/Search/WellDetails#
+
+
+##Web scraping
+##For Report info
+Bonapart Basin info : https://www.dmp.wa.gov.au/Petroleum/Bonaparte-Basin-10987.aspx
+
+##FOr extracting Biostrat Data (Geoscience Aus)
+Whimbrel_1
+http://dbforms.ga.gov.au/www/npm.well.summary_report?pName=Whimbrel%201&pEno=16958&pTimescale=J&pDepthMax=2058.62&pDepthMin=0&pPeriod=&pStage=&pAgeMax=276.7&pAgeMin=0&pAgeTop=0&pAgeBase=3000&pTotalAge=276.7
+
+Plover_1
+http://dbforms.ga.gov.au/www/npm.well.summary_report?pName=Plover%201&pEno=14880&pTimescale=J&pDepthMax=2438&pDepthMin=0&pPeriod=&pStage=&pAgeMax=272.3&pAgeMin=0&pAgeTop=0&pAgeBase=3000&pTotalAge=272.3
+
+Plover_2
+http://dbforms.ga.gov.au/www/npm.well.summary_report?pName=Plover%202&pEno=14881&pTimescale=J&pDepthMax=1524&pDepthMin=0&pPeriod=&pStage=&pAgeMax=290.06&pAgeMin=0&pAgeTop=0&pAgeBase=3000&pTotalAge=290.06
