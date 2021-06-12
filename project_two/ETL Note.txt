@@ -1,0 +1,52 @@
+well_header
+-
+well_id INT pk
+state varchar
+operator varchar
+lattitude int
+longitude int
+rigs varchar
+ubhi varchar
+
+
+
+well_report
+-
+doc_id INT 
+borehole_id INT FK >- borehole.borehole_id
+document_title varchar
+document_type varchar
+
+basin
+-
+basin_id INT pk
+basin varchar
+sub_basin varchar
+
+borehole_observation
+-
+observation_id INT PK
+borhole_id  INT FK - borehole.borehole_id
+basin_id  INT FK - basin.basin_id
+doc_id  INT FK -< well_report.doc_id
+biostrat_id  INT FK - biostrat.biostrat_id
+elevation_id INT FK -< elevation.elevation_id
+well_id INT FK - well_header.well_id
+
+elevation
+-
+elevation_id INT PK
+sea_floor varchar
+rotary_table varchar
+
+biostrat
+-
+biostrat_id  INT PK
+borehole_id INT FK >- borehole.borehole_id
+depth varchar
+zone varchar
+
+borehole
+-
+borehole_id INT PK
+borehole_name varchar
